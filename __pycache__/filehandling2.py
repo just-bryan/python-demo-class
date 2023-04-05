@@ -17,6 +17,7 @@ fhand= open('file.txt').readlines()
 num_lines= 0
 frequency ={}
 #the setdefault()method returns the value of the item with specified key
+
 #if the key does not exist, insert the key, with the specific value 
 for line in fhand:
     for word in line.split():
